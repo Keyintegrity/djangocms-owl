@@ -19,8 +19,8 @@ class Migration(migrations.Migration):
                 ('stop_on_hover', models.BooleanField(default=False, help_text='Stop autoplay on mouse hover')),
                 ('items', models.PositiveSmallIntegerField(default=1, help_text='maximum amount of items displayed at a time')),
                 ('auto_height', models.BooleanField(default=False, help_text='Add height to owl-wrapper-outer so you can use different heights on slides.')),
-                ('style', models.CharField(default=b'default', help_text='CSS class', max_length=255, verbose_name='style', choices=[(b'default', b'Default')])),
-                ('template', models.CharField(default=b'default', max_length=255, verbose_name='template', choices=[(b'default', b'Default')])),
+                ('style', models.CharField(default='default', help_text='CSS class', max_length=255, verbose_name='style', choices=[('default', 'Default')])),
+                ('template', models.CharField(default='default', max_length=255, verbose_name='template', choices=[('default', 'Default')])),
             ],
             options={
                 'abstract': False,
