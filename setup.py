@@ -35,9 +35,10 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'django-cms >= 3.2.3',
-        'django-appconf >= 1.0.1',
-        'jsonfield >= 1.0.3',
+        'django>=1.11,<2.0',
+        'django-cms>=3.2.3,<4.0',
+        'django-appconf>=1.0.1,<2.0',
+        'jsonfield>=2.1,<3.0',
     ],
     license="BSD",
     zip_safe=False,
