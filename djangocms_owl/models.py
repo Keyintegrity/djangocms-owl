@@ -1,8 +1,3 @@
-try:
-    import json
-except ImportError:
-    from django.utils import simplejson as json
-
 from django.db import models
 from django.utils.translation import ugettext as _
 

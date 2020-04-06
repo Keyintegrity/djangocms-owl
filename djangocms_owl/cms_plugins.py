@@ -1,9 +1,5 @@
-try:
-    import json
-except ImportError:
-    from django.utils import simplejson as json
+import json
 
-from django.template.loader import select_template
 from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext as _
 
