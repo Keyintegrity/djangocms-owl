@@ -5,12 +5,6 @@ djangocms-owl
 implements the JavaScript carousel library `Owl Carousel`_. Version 1 of
 Owl Carousel is supported.
 
-Dependencies
-------------
-
--  Djangocms>=3.0
--  Django>=1.6
-
 Installation
 ------------
 
